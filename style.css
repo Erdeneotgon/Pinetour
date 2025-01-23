@@ -1,0 +1,332 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanuman:wght@100;300;400;700;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+.container {
+  width: 1440px;
+  margin-inline: auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Inter", serif;
+  position: fixed;
+  width: 1440px;
+  z-index: 100;
+}
+nav a {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  width: 100px;
+  display: block;
+  text-decoration: none;
+}
+nav {
+  display: flex;
+  gap: 24px;
+}
+.button {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+.user {
+  width: 20px;
+}
+.hero {
+  background-image: url(./images/HeroImage.png);
+  width: 1440px;
+  height: 773px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pure {
+  font-size: 80px;
+  line-height: 80px;
+  opacity: 0.5;
+  font-family: "Bebas Neue", serif;
+}
+.awaits {
+  font-size: 250px;
+  font-weight: 400;
+  line-height: 250px;
+  font-family: "Bebas Neue", serif;
+}
+.too {
+  font-size: 64px;
+  font-weight: 900;
+  font-family: "Hanuman", serif;
+}
+.text {
+  text-align: center;
+  color: white;
+}
+.section2 {
+  background-image: url(./images/Location\ image.png);
+  width: 1440px;
+  height: 512px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 37px;
+  font-weight: 400;
+  font-family: "Bebas Neue", serif;
+}
+
+.location {
+  width: 275.5px;
+  height: 370px;
+  border-radius: 50px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: -8px -8px 0px 0px rgba(46, 65, 71, 0.4),
+    8px 8px 0px 0px rgba(41, 114, 139, 0.25);
+}
+
+.location img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.location h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 37px;
+  font-weight: 400;
+  opacity: 80%;
+}
+
+.image1 {
+  width: 275.49px;
+  height: 370px;
+}
+.image2 {
+  width: 275.49px;
+  height: 370px;
+}
+.image3 {
+  width: 275.49px;
+  height: 370px;
+}
+.image4 {
+  width: 275.49px;
+  height: 370px;
+}
+.section3 {
+  background-image: url(./images/Roadmap\ image.png);
+  width: 1440px;
+  height: 1022px;
+}
+.sukh {
+  background-color: #eee9d9;
+}
+.amar {
+  background-color: #8bb8c1;
+}
+.khorgo {
+  background-color: #aad8d7;
+}
+.terh {
+  background-color: #8bc0bd;
+}
+.huvsgul {
+  background-color: #97cce0;
+}
+.destination {
+  font-family: "Inter", serif;
+  font-weight: 600;
+  text-align: center;
+  font-size: 42px;
+  color: #000000;
+}
+.pack {
+  font-size: 20px;
+  color: #18181b;
+  text-align: center;
+  font-family: "Inter", serif;
+  opacity: 70%;
+  font-weight: 500;
+}
+
+.box-parent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.box {
+  width: 513px;
+  border-radius: 120px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.jijig-garchig {
+  font-weight: 400;
+  font-size: 12px;
+  color: #18181b;
+  font-family: "Montserrat", serif;
+}
+.pin {
+  width: 14px;
+  height: 14px;
+}
+.odor {
+  width: 52px;
+  height: 52px;
+  background-color: #f7f6f3;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box-parent {
+  margin-left: 120px;
+  margin-top: 59px;
+  position: relative;
+}
+
+.destination-pin {
+  position: absolute;
+  height: 34px;
+  width: 34px;
+}
+
+.pin-1 {
+  top: 96px;
+  left: 630px;
+}
+.pin-2 {
+  top: 170px;
+  left: 840px;
+}
+.pin-3 {
+  top: 310px;
+  left: 1045px;
+}
+.pin-4 {
+  top: 300px;
+  left: 650px;
+}
+.pin-5 {
+  top: 500px;
+  left: 840px;
+}
+.section-4 {
+  background-image: url(./images/Price&Footer\ image.png);
+  width: 1440px;
+  height: 1120px;
+}
+.big-box {
+  width: 100%;
+  height: 527px;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  border-radius: 40px;
+}
+.box-small {
+  width: 384px;
+  height: 527px;
+  background-color: #fafbfc;
+  border-radius: 40px;
+  padding: 34px 24px 48px;
+}
+.box-2 {
+  width: 384px;
+  height: 527px;
+  background-color: #fafbfc;
+  border-radius: 40px;
+}
+.box-3 {
+  width: 384px;
+  height: 527px;
+  background-color: #fafbfc;
+  border-radius: 40px;
+}
+.title-1 {
+  font-family: "Inter", serif;
+  font-weight: 600;
+  font-size: 42px;
+  color: #000000;
+  text-align: center;
+}
+.title-2 {
+  font-family: "Inter", serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #18181b;
+  opacity: 70%;
+  text-align: center;
+}
+.zurh {
+  display: flex;
+  font-weight: 500;
+  size: 18px;
+  color: #121316;
+  font-family: "Inter", serif;
+  width: 384px;
+  height: 92px;
+  align-items: center;
+}
+.zurh-icon {
+  width: 36px;
+  height: 36px;
+}
+.too {
+  font-weight: 600;
+  font-family: "Montserrat", serif;
+  font-size: 40px;
+  color: #303030;
+  width: 141px;
+}
+.garchig {
+  font-family: "Inter", serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #919191;
+}
+.popular {
+  width: 91px;
+  height: 27px;
+  background-color: #6972b5;
+}
+.check {
+  width: 20px;
+  height: 20px;
+}
+.urt-garchig {
+  font-family: "Inter", serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #3f4145;
+}
+.jijig:hover button {
+  background-color: #a4d1e2;
+}
+.but {
+  width: 336px;
+  height: 48px;
+  background-color: #a4d1e2;
+  border-radius: 50px;
+}
